@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:"Montserrat", sans-serif;
+    color:#F1D4D4;
+    background-color:#111;
+    padding: 0;
+    margin: 0;
+  }
+  #main{
+    padding-top:40px;
+  }
+  #title{
+    margin:0 auto;
+    margin-bottom:20px;
+    padding:13px 10px;
+    max-width:500px;
+    text-align:center;
+    color: #F1D4D4;
+    background-color:#6A097D;
+    
+  }
+  #img-div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  #image{
+    max-width:300px;
+    border:7px solid #C060A1;
+  }
+  #img-caption{
+    font-style:italic;
+  }
+  
+  #tribute-info{
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    max-width:600px;
+  }
+  #profile-title{
+    margin:0 auto;
+    margin-bottom:20px;
+    padding:10px 40px;
+    text-align:center;
+    color: #F1D4D4;
+    background-color:#6A097D;
+  }
+  
+  table{
+    border:3px solid #6A097D;
+    padding:15px;
+    margin-bottom:15px;
+  }
+  td{
+    padding:7px;
+  }
+  a{
+    font-size:1.3em;
+    letter-spacing:6px;
+    text-decoration: none;
+    color:#F1D4D4;
+  }
+  
+  footer{
+    margin-top:20px;
+    padding:10px;
+    text-align:center;
+    background-color:#C060A1;
+  }
